@@ -11,7 +11,7 @@ async function searchRecipe()
       }
       
       const baseURL='https://api.spoonacular.com/recipes/complexSearch';
-      const apiKey='e01ab11d1335486ca448d1db5e7c44b1';
+      const apiKey='e01ab11d1335486ca448d1db5e7c44b1'; //replace your own API
       const result=await fetch(`${baseURL}?query=${query}&apiKey=${apiKey}`);
       const res=await result.json();
       const list=res.results;
