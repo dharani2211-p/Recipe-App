@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <style>
+      body{
+        
+        background-image: url('pic1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center top;
+       
+      }
+      input{
+        font-size: 15px;
+        padding: 5px;
+        border-radius:8px;
+        border: 0px;
+      }
+      button{
+        font-size: 15px;
+        border-radius: 8px;
+        padding: 5px;
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(221, 62, 26);
+        border: 0px;
+      }
+      #searchBar{
+       margin: 50px auto;
+       width: 275px;
+      }
+    
+      .display{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap:10px;
+        padding: 5px;
+        justify-content: space-around;
+        background-color:rgba(135, 134, 134, 0.5);
+      }
+     .picframe{
+        width: 300px;
+        height: 400px;
+     }
+     a
+     {
+      color: white;
+      text-decoration: none;
+     }
+     #alert
+     {
+      font-size: 14px;
+      color: rgb(250, 247, 247);
+      
+      display: block;
+     }
+    </style>
+  </head>
+  <body>
+    <h1 style="color:white;text-align: center;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Recipe App</h1>
+    
+    <div id="searchBar">
+      <input type="text" placeholder="Enter the recipe name.." id="query">
+      <button onclick="searchRecipe()">search</button>
+      <span id="alert"></span>
+    </div>
+    <div id="display"></div>
+  </body>
+  <script src="script.js"></script>
+</html>
