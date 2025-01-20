@@ -17,4 +17,4 @@ A simple web application that allows users to search for recipes by name and vie
 - **Spoonacular API** (requires an API key)
 - Create your own API
 - API in spoonacular has usage limit
-- Free for only few request then you have to do payment
+- Free only for few request then you have to do payment
